@@ -1,0 +1,11 @@
+# Site settings
+title: Karate Dojo Nitta e.V. Dresden
+email: philipp@eppelt.de
+description: > # this means to ignore newlines until "baseurl:"
+  Traditionelles Shotokan Karate im Zentrum Dresdens.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://phipse.github.io/NittaSeite" # the base hostname & protocol for your site
+github_username:  phipse
+
+# Build settings
+markdown: kramdown
