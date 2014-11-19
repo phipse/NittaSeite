@@ -1,23 +1,53 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!doctype html>
+<html>
+	<head>	
+		<meta charset="utf-8" >
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="language" content="de" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta name="author" content="Uwe Nauck" />
+		<meta name="keywords" content="karate,verein,dresden,shotokan,training,dojo,kinder,kindergruppe,skid,s.k.i.d.,nitta" />
+		<meta name="description" content="Shotokan Karte Dojo Nitta e.V. Dresden" />
+		<meta name="date" content="2014-10-21T10:12:00+02:00" />
+		<meta name="language" content="de" />
+		<meta name="robots" content="index,follow" />
+		<title>Karate Dojo Nitta e.V. Dresden :: Shotokan Karate im Stadtzentrum Dresden</title>
+		<base href="http://nitta-dresden.de/" />
+		
+		<!-- IE hacks //-->
+		<script src="static/jscript/ie-hacks.js"></script>
+		<!-- common tools //-->
+		<script src="static/jscript/tools.js"></script>
+		<!-- lib include: Mootools //-->
+		<script src="static/jscript/mootools-1.2.1-core.js"></script>
+		<script src="static/jscript/mootools-1.2.1-more.js"></script>
+		<!-- lib include: Smoothbox //-->
+		<script src="static/jscript/smoothbox-1.2.js"></script>			
+		<!-- navigation effects //-->
+		<script src="static/jscript/navigation.js"></script>					
+		<!-- initialize javascript features //-->
+		<script src="static/jscript/init.js"></script>	
+		<!-- Facebook Connect API //-->
+		<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+		
+		<style title="currentStyle" media="screen">
+			/* @import "static/css/default.css"; */
+			@import "/css/default.css";
+		</style>
+		<!-- smoothbox css //-->
+		<style title="currentStyle" media="screen">
+			@import "static/css/smoothbox.css";
+		</style>
+		<style title="currentStyle" media="screen">
+				@import "static/css/p_start.css";
+		</style>	 	
+		<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico" />
+	</head>
+	<body>
+	<header class="container">
+		<h1>Shotokan Karate Dojo Nitta e.V. Dresden</h1>
+	</header>
+	<footer></footer>
+	</body>
+</html>
