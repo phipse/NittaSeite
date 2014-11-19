@@ -1,9 +1,9 @@
 
 /*
- * © Uwe Nauck
+ * Â© Uwe Nauck
  * 
  * Created on 09/11/2007 by Uwe Nauck
- * Last changed on 19/11/2014 by David Gest
+ * Last changed on 21/10/2014 by Uwe Nauck
  *
  * Global CSS styles
  */
@@ -14,11 +14,6 @@
 * {
 	padding: 0;
 	margin: 0;
-}
-
-header {
-	margin-left: auto;
-  	margin-right: auto;
 }
 
 html, body {
