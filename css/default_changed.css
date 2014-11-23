@@ -1,0 +1,278 @@
+
+/*
+ * © Uwe Nauck
+ * 
+ * Created on 09/11/2007 by Uwe Nauck
+ * Last changed on 19/11/2014 by David Gest
+ *
+ * Global CSS styles
+ */
+
+
+/* ---------- misc ---------- */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+html, body {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	background-image: url(http://nitta-dresden.de/static/images/page_bg.jpg);
+	background-position: top center;
+	background-repeat: repeat-y;
+	background-color: #f5f5f5;
+	color: #030303;
+	font: 11px/1.4em Arial, Tahoma, Verdana, sans-serif;
+	text-align: center;
+}
+
+acronym {
+	cursor: help;
+}
+
+.clear {
+	clear: both;
+	padding: 0;
+	margin: 0;
+	height: 1px;
+}
+
+
+/* ---------- div ---------- */
+
+#container {
+	background: #ffffff;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	padding: 0 2px 0px 0px;
+	width: 800px !important;
+	width /**/: 804px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+#pageIntro {
+	background-color: #f5f5f5;
+	position: relative;
+	top: 0px;
+	left: 185px;
+	width: 615px;
+}
+
+#pageTitle, #quickSummary, #pageContent {
+	width: 575px !important;
+	width /**/: 615px;
+}
+
+#pageTitle {
+	padding: 15px 20px 10px 20px;
+}
+
+#bookmarks {
+	position: absolute;
+	top: 14px;
+	right: 0px;
+}
+
+#quickSummary {
+	padding: 0px 20px 10px 20px;
+}
+
+#pageContent {
+	position: relative;
+	top: 20px;
+	left: 205px;
+}
+
+#content * {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav {
+	position: absolute;
+ 	top: 148px;
+	left: 2px;
+	width: 185px;
+	font-size: 10px;
+	line-height: 1.2em;
+	z-index: 1;
+}
+
+#linkList div.links {
+	background-image: url(http://nitta-dresden.de/static/images/nav_item_top.gif);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 10px;
+}
+
+* html #linkList {
+ 	top: 158px;
+}
+
+*+html #linkList {
+ 	top: 158px;
+}
+
+#contentFooter {
+	background-image: url(http://nitta-dresden.de/static/images/contentfooter_bg.gif);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: #f5f5f5;
+	position: relative;
+	top: 0px;
+	left: 185px;
+	margin-top: 35px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 615px;
+	text-align: center;
+}
+
+#contentFooter span.text {
+	float: none;
+}
+
+#extraDiv1 {
+	background-image: url(../../static/images/nitta_jap.gif);
+	background-repeat: no-repeat;
+	visibility: hidden;
+	position: absolute;
+	top: 0px;
+	left: 27px;
+	width: 46px;
+	height: 160px;
+	z-index: 0;
+}
+
+
+/* ---------- h1, h2, h3, h4 ---------- */
+
+h1 {
+	display: block;
+	margin-top: 10px;
+	width: 800px;
+	height: 134px;
+	font-weight: normal;
+	font-size: 1.0em;
+	line-height: 1.0em;
+	text-indent: -2000em;
+	background-image: url(http://nitta-dresden.de/static/images/h1.jpg);
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+}
+
+h2 {
+	font-size: 11px;
+	color: #be0026;
+}
+
+h3 {
+	font-size: 11px;
+}
+
+#linkList h3 {
+	margin: 0px 0px 0px 0px; 
+	padding: 3px 5px 3px 18px;
+}
+
+h4 {
+	font-size: 11px;
+}
+
+
+/* ---------- p ---------- */
+
+p {
+	padding-top: 5px;
+}
+
+.p1 {
+	padding-top: 2px;
+}
+
+
+/* ---------- span ---------- */
+
+span.bold {
+	font-weight: bold;
+}
+
+
+/* ---------- ul, li ---------- */
+
+ul, li {
+	list-style: none;
+}
+
+#linkList li {
+	padding-left: 29px;
+	border-bottom: 1px solid #f5f5f5;
+}
+
+#linkList li.last {
+	padding-bottom: 12px;
+	border-bottom: none;
+}
+
+
+#linkList a {
+	text-decoration: none;
+}
+
+#linkList ul {
+	display: none;
+}
+
+
+/* ---------- a ---------- */
+
+a:link {color: #030303;}
+a:visited {color: #030303;}
+a:hover {color: #be0026; text-decoration: underline;}
+a:active {color: #be0026;}
+a:focus{color: #be0026;}
+
+a {
+	text-decoration: none;
+	color: #030303;
+}
+
+#linkList a.selected {
+	color: #be0026;
+}
+
+
+/* ---------- img ---------- */
+
+img {
+	border: 0px;
+}
+
+img.border {
+	border: 1px solid #303030;
+}
+
+
+/* ---------- select ---------- */
+
+select {
+	color: #030303;
+	font: 11px/1.4em Arial, Tahoma, Verdana, sans-serif;
+	border: 1px solid #030303;
+}
+
+option {
+	padding-left: 4px;
+}
