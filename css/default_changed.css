@@ -48,7 +48,7 @@ acronym {
 
 /* ---------- div ---------- */
 
-#container {
+.container {
 	background: #ffffff;
 	position: relative;
 	top: 0px;

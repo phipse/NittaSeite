@@ -11,26 +11,26 @@
 
 /* ---------- div ---------- */
 
-#content div.text {
+.text {
 	display: inline;
 	float: left;
 	width: 407px;
 	vertical-align: top;
 }
 
-#content section.image {
+.content section.image {
 	display: inline;
 	float: left;
 	width: 148px;
 	padding-left: 20px;
 }
 
-#content div.flyer {
+.content div.flyer {
 	float: left;
 	padding-right: 15px;
 }
 
-#content div.link {
+.content div.link {
 	padding-top: 47px;
 	font-weight: bold;
 }
@@ -38,30 +38,30 @@
 
 /* ---------- p ---------- */
 
-#content p {
+.content p {
 	padding-bottom: 5px;
 }
 
-#content p.p2 {
+.content p.p2 {
 	padding-top: 10px;
 	font-weight: bold;
 }
 
-#content p.p3, #content p.p4 {
+.content p.p3, .content p.p4 {
 	font-weight: bold;
 }
 
-#content p.p5 {
+.content p.p5 {
 	padding-top: 10px;
 }
 
-#content p.p7 {
+.content p.p7 {
 	padding-bottom: 15px;
 }
 
 
 /* ---------- a ---------- */
 
-#content a {
+.content a {
 	color: #be0026;
 }
