@@ -94,7 +94,7 @@ acronym {
 	left: 205px;
 }
 
-#content * {
+.content * {
 	margin: 0px;
 	padding: 0px;
 }
@@ -145,7 +145,7 @@ nav {
 }
 
 #extraDiv1 {
-	background-image: url(../../static/images/nitta_jap.gif);
+	background-image: url(http://nitta-dresden.de/static/images/nitta_jap.gif);
 	background-repeat: no-repeat;
 	visibility: hidden;
 	position: absolute;

@@ -1,0 +1,67 @@
+
+/*
+ * � Uwe Nauck
+ * 
+ * Created on 09/11/2007 by Uwe Nauck
+ * Last changed on 06/08/2013 by Uwe Nauck
+ *
+ * CSS styles page 'Startseite'
+ */
+
+
+/* ---------- div ---------- */
+
+#content div.text {
+	display: inline;
+	float: left;
+	width: 407px;
+	vertical-align: top;
+}
+
+#content section.image {
+	display: inline;
+	float: left;
+	width: 148px;
+	padding-left: 20px;
+}
+
+#content div.flyer {
+	float: left;
+	padding-right: 15px;
+}
+
+#content div.link {
+	padding-top: 47px;
+	font-weight: bold;
+}
+
+
+/* ---------- p ---------- */
+
+#content p {
+	padding-bottom: 5px;
+}
+
+#content p.p2 {
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+#content p.p3, #content p.p4 {
+	font-weight: bold;
+}
+
+#content p.p5 {
+	padding-top: 10px;
+}
+
+#content p.p7 {
+	padding-bottom: 15px;
+}
+
+
+/* ---------- a ---------- */
+
+#content a {
+	color: #be0026;
+}
