@@ -13,38 +13,108 @@
 		<meta name="language" content="de" />
 		<meta name="robots" content="index,follow" />
 		<title>Karate Dojo Nitta e.V. Dresden :: Shotokan Karate im Stadtzentrum Dresden</title>
-		<base href="http://nitta-dresden.de/" />
+		<!-- <base href="http://nitta-dresden.de/" /> -->
 		
 		<!-- IE hacks //-->
-		<script src="static/jscript/ie-hacks.js"></script>
+		<script src="./_includes/js/ie-hacks.js"></script>
 		<!-- common tools //-->
-		<script src="static/jscript/tools.js"></script>
+		<script src="./_includes/js/tools.js"></script>
 		<!-- lib include: Mootools //-->
-		<script src="static/jscript/mootools-1.2.1-core.js"></script>
-		<script src="static/jscript/mootools-1.2.1-more.js"></script>
+		<!-- <script src="./_includes/js/mootools-1.2.1-core.js"></script>
+		<script src="./_includes/js/mootools-1.2.1-more.js"></script> -->
 		<!-- lib include: Smoothbox //-->
-		<script src="static/jscript/smoothbox-1.2.js"></script>			
+		<!-- <script src="./_includes/js/smoothbox-1.2.js"></script> -->			
 		<!-- navigation effects //-->
-		<script src="static/jscript/navigation.js"></script>					
+		<!-- <script src="./_includes/js/navigation.js"></script> -->					
 		<!-- initialize javascript features //-->
-		<script src="static/jscript/init.js"></script>	
+		<!-- <script src="./_includes/js/init.js"></script> -->	
 		<!-- Facebook Connect API //-->
-		<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+		<script src="http://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.0"></script>
 		
-		<style title="currentStyle" media="screen">
+		<!-- <style title="currentStyle" media="screen">
 			/* @import "static/css/default.css"; */
 			@import "file:///D:/Github%20Repository/NittaSeite/css/default_changed.css";			
 		</style>
-		<!-- smoothbox css //-->
+		smoothbox css //
 		<style title="currentStyle" media="screen">
 			@import "static/css/smoothbox.css";
 		</style>
 		<style title="currentStyle" media="screen">
 			/*	@import "static/css/p_start.css"; */
 			@import "file:///D:/Github%20Repository/NittaSeite/css/p_start_changed.css";
-		</style>	 	
+		</style> -->	 	
+		
+		<link rel="stylesheet" name="currentStyle" href="./css/new_default.css" media="screen" />
+		<link rel="stylesheet" name="linkStyle" href="./css/new_links.css" media="screen" />		 
+		
 		<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico" />
 	</head>
+	<body>
+	  <header>
+	  	<nav id="menu">
+	  		<ul>
+	  			<li><a href="" title="Anfaenger">Anfänger</a></li>
+	  			<li><a href="" title="Trainer">Trainer</a></li>
+	  			<li><a href="" title="Training">Training</a></li>
+	  			<li><a href="" title="Verein">Verein</a></li>
+	  			<li><a href="" title="Bilder">Bilder</a></li>
+  			</ul>
+	  	</nav>
+	  	<section id="bookmarks">
+	  		<div class="fb-like" data-href="http://www.nitta-dresden.de" data-width="100" data-layout="button_count" data-action="like" 
+	  			data-show-faces="false" data-share="true">
+  			</div>		
+		</section>	
+	  </header>
+	  <div id="main">
+		  <section id="sect_main">
+		  	<img src="images/content/mainpage.jpg" ></img>
+		  	<div id="content">
+		  		<h4>Shotokan Karate im Stadtzentrum Dresden</h4>
+		  		<span>
+			  		Diese kleine Seite wurde in Leben gerufen um Interessenten am traditionallen Shotokan Karate einen Einblick in unsere 
+			  		Trainingsalltag zu geben. Ihr findet hier alle relevanten Informationen über unseren Verein in Dresden und darüber hinaus.
+			  		Also viel Spaß beim Schnuppern auf unserer Seite!
+		  		</span>
+		  		<span>Ehrlich gesagt ... jede Minute die am Rechner verbracht wird, kann nicht für das Training genutzt werden. 
+		  		Schaut doch einfach bei mal bei uns vorbei!</span>
+		  	</div>
+		  </section>
+		  <section id="sect_news">
+		  	<h3>NEWS</h3>
+		  </section>
+	  </div>
+	  <footer>
+	  	<section id="contact">
+		  	<form action="">
+		  		<a>NEHMEN SIE MIT UNS KONTAKT AUF</a>
+		  		<input name="name" type="text" size="40" value="NAME"/><br/>
+		  		<input name="email" type="email" size="40" value="EMAIL"/><br/>
+		  		<textarea name="message" rows="4" cols="30">NACHRICHT</textarea><br/>	
+		  		<button name="btnSend">Absenden</button>  		
+		  	</form>
+	  	</section>
+	  	<section id="dojo_links">	  		
+	  		<ul>
+	  			<li><span>LINKS</span></li>
+	  			<li id="skid"><a href="" title="skid">SHOTOKAN KARATE <br> INTERNATIONAL DEUTSCHLAND</a></li>
+	  			<li id="torii"><a href="" title="torii">TORII - DRESDEN</a></li>
+	  			<li id="ouchi"><a href="" title="ouchi">OUCHI - DRESDEN</a></li>
+	  			<li id="yagyu"><a href="" title="yagyu">YAGYU -  DRESDEN</a></li>
+	  			<li id="muromachi"><a href="" title="muromachi">MUROMACHI - DRESDEN</a></li>
+	  			<li id="onami"><a href="" title="onami">ONAMI - DRESDEN</a></li>
+	  		</ul>		  	
+	  	</section>
+	  	<section id="site_links">
+	  		<ul>
+	  			<li id="impressum"><a href="">IMPRESSUM</a></li>
+	  			<li id="sitemap"><a href="">SITEMAP</a></li>
+	  		</ul>
+	  		
+	  	</section>
+	  </footer>
+	</body>
+	<!--
 	<body id="page" class="container">
 	<header>
 		<h1>Shotokan Karate Dojo Nitta e.V. Dresden</h1>
@@ -165,7 +235,9 @@
 			</section>		
 		</article>
 	</main>
+	-->
 	<!-- These extra divs/spans may be used as catch-alls to add extra imagery. -->
+	<!-- 
 	<div id="extraDiv1"><span>&nbsp;</span></div>
 	<div id="extraDiv2"><span>&nbsp;</span></div>
 	<div id="extraDiv3"><span>&nbsp;</span></div>
@@ -177,4 +249,5 @@
 		</span>
 	</footer>
 	</body>
+	  -->	 
 </html>
