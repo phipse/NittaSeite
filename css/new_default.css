@@ -1,0 +1,122 @@
+
+html
+{
+	height:100%;
+	font: 11px/1.4em Arial, Tahoma, Verdana, sans-serif;
+	background-color: rgb(192,192,192);
+}
+
+body
+{
+	height: 900px;
+	width: 1125px;
+	margin: 0 auto;
+	background-color: rgb(235,235,235); 
+	background-image: url(../images/backgrounds/bg-image-0.png), url(../images/backgrounds/white_line.png), url(../images/backgrounds/bg-image-1.png), url(../images/backgrounds/bg-image-2.png);	
+	background-repeat: no-repeat, repeat-x, no-repeat, no-repeat;
+	background-position: top 23px left 140px, top 100px left, top left, right bottom 212px;	
+	border: 0.5pt solid black;
+	index-z: 1; 	
+}
+
+header
+{	
+	position:relative;
+	height: 130px;	
+}
+
+#menu ul
+{	
+	position:absolute;
+	top: 40px;
+	left: 250px;	
+}
+
+#menu li
+{
+	display:inline;
+	list-style-type: none;	
+}
+
+#menu a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	padding: 4px 20px;
+}
+
+#bookmarks {	
+	width: 60px;
+	height: 20px;
+	position: absolute;
+	top: 45px;
+	right: 250px;
+}
+
+#main
+{	
+	height: 500px;	
+}
+
+#sect_main
+{
+	height: 490px;
+	float: left;
+	margin-left: 250px;
+	padding: 5px 20px;
+	width: 400px; 
+}
+
+#sect_news
+{
+	float: left;
+	width: 250px; 
+	height: 490px;	
+	background-color: white;
+	opacity: 0.5;
+	padding: 5px 20px;		
+}
+
+footer
+{
+	clear: both;
+	height: 270px;
+	background-color:rgb(161,161,161);
+	opacity: 0.5;
+}
+
+#contact
+{
+	float: left;
+	margin-left: 200px; 
+	height: 250px;
+	width: 260px;
+	padding: 30px 10px; 	
+}
+
+#contact a
+{	
+	font-size: 13px;
+}
+
+#contact input
+{
+	margin-top: 8px;
+}
+
+#contact textarea
+{
+	margin-top: 8px;
+	resize: none;	
+}
+
+#contact button
+{
+	margin-top: 8px;
+	position:relative;
+	left: 182px;
+	color: white;
+	background-color: rgb(111,111,111);
+	border:none;
+}
