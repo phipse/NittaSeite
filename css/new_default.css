@@ -103,12 +103,14 @@ footer
 #contact input
 {
 	margin-top: 8px;
+	width: 200px
 }
 
 #contact textarea
 {
 	margin-top: 8px;
 	resize: none;	
+	width: 200px;
 }
 
 #contact button
