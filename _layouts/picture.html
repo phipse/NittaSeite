@@ -1,0 +1,5 @@
+---
+layout: default
+---
+
+{% if page.picturedir %}  {% for picture in site.static_files %}    {% assign pictureFilename = picture.path | split: '/' | last %}    {% assign pictureFileext = pictureFilename | split: '.' | last | prepend: '.' %}    {% assign picturePath = picture.path | remove: pictureFilename %}    {% assign pictureFnTmp = pictureFilename | remove: page.picturedir.thumbext %}    {% if picturePath == page.picturedir.filepath and pictureFileext == page.picturedir.fileext and pictureFilename == pictureFnTmp %}      {% assign thumbpath = picture.path | remove: page.picturedir.fileext | append: page.picturedir.thumbext %}      {% assign hasthumb = site.static_files | where: "path", thumbpath | size %}      <figure>	{% if hasthumb == 1 %}	  <a href="{{ site.url}}{{ picture.path }}">	    <img src="{{ site.url }}{{ thumbpath }}">	  </a>	{% else %}	  <a href="{{ site.url}}{{ picture.path }}">	    <img src="{{ site.url }}{{ picture.path }}">	  </a>	{% endif %}      </figure>    {% endif %}  {% endfor %}{% endif %}
