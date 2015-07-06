@@ -6,12 +6,12 @@ ToDo:
 * * generierbar via layout & jekyll?
 
 * Training: 
-* * Karte einfügen
+** Karte einfügen
 * Verein:
-* * Unterseiten erstellen
-* * Bildpfade anpassen
+** Unterseiten erstellen
+** Bildpfade anpassen
 * Trainer:
-* * Bilder neben den Text
+** Bilder neben den Text
 
 * NEWS Bereich
 * Layout: 
