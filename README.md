@@ -3,7 +3,7 @@ ToDo:
 -----
 
 * Mobile Seite
-* * generierbar via layout & jekyll?
+   * generierbar via layout & jekyll?
 
 * Training: 
   * Karte einfügen
