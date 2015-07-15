@@ -103,6 +103,13 @@ header
 	padding: 0px 20px;
 }
 
+#sect_main_img
+{
+  float: left;
+  width: 50%;
+  padding: 0px 0px;
+}
+
 #sect_news
 {
 	float: left;
